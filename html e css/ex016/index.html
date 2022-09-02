@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .container{
+            height: 200px;
+            background-color: blueviolet;
+            display: flex;
+            /* display: flex; colocar um do lado do outro*/
+            /* flex-nowarp: norwrap; não deixa quebrar pagina*/
+            /* justify-content: space-between; colocar maior distancia entre os elementos*/
+            /* justify-content:space-evenly; a mesma distancia entre todos os elementos*/
+            /* justify-content:space-around; coloca as mesma distancia entre bordas entre elementos*/
+            /* justify-content: flex-start(começo);flex-end(final); flex-center(centro)*/
+            /* align-item: center; centraliza no centro da pagina*/
+            /*flex-direction(serve para posicionar seu container):columns:( colunas); row( horizontal) */
+
+            justify-content: center;
+            align-items: center;
+            flex-direction:row ;
+        }
+        .elemento {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elemento">
+            ITEM
+        </div>
+        <div class="elemento">
+            ITEM
+        </div> 
+        <div class="elemento">
+            ITEM
+        </div>
+       
+    </div>
+    
+</body>
+</html>

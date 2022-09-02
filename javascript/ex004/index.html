@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do mouse</title>
+    <style>
+
+        div#area {
+
+            font: normal 20pt arial;
+
+            background: green;
+
+            color: aliceblue;
+
+            width: 200px;
+
+            height: 200px;
+
+            line-height: 200px;
+
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+    
+
+<body>
+    <div id="area" onclick="batata()" onmouseenter="entrar()" onmouseout="sair()">
+       Interaja...
+    </div>
+    <h1>Eventos do mouse</h1>
+    <p>mousecenter quando o mouse entra na area</p>
+    <p>mousemove mover o mouse dentro da area</p>
+    <p>mousedown quando clicar e segurar o botão do mouse</p>
+    <p>mouseup quando solta o botão do mouse</p>
+    <p>click clicar e soltar o botão do mouse rapidamente</p>
+    <p>mouseout quando move o moude pra fora da div</p>
+<script>
+    var a = window.document.getElementById('area')
+    function batata(){
+        a.innerText='viu'
+        a.style.background='red'
+    }
+     function entrar(){
+        a.innerText='na hora'
+        a.style.background=''
+
+    }
+    function sair(){
+        a.innerText='2'
+        a.style.background='black'
+    }
+</script>
+</body>
+
+</html>
+
+
+
+

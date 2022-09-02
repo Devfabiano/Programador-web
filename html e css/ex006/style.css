@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "regular";
+    src: url(Tangerine-Regular.ttf);
+}
+
+body{
+    background-color: aqua;
+    margin:100px;
+}
+p{ 
+  text-align: center;  
+}
+h1{
+    color: green;
+    background-color: white;
+    text-align: justify ;
+    font-family:"regular";
+}
+h2{
+    font-size: small;
+    color: white;
+}
+h3{
+    color: red;
+    font-size: 35px;
+}
+p1{
+    font-style: italic;
+}
+p2{
+    font-size: 25px;
+}
+div>p {
+    display: none;
+
+}
+
+div:hover>p {
+    display: block;
+}
+
+div:hover {
+    background-color: rgb(49, 66, 49);
+    color: rgb(243, 241, 241);
+
+}
+div>img{
+    display:none;
+}
+div:hover>img{
+    display: block;
+}
+div {
+    margin-left: 20px;
+    display: inline-block;
+    background-image: url("https://appinveste.com.br/wp-content/uploads/2020/08/fundos-imobiliarios-baratos.jpg");
+    text-align: justify;
+    border: 2px solid white;
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+}
+img{
+   
+
+}

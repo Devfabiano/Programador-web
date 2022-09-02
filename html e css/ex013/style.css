@@ -1,0 +1,29 @@
+@charset "utf-8";
+@font-face {
+    font-family:"regular" ;
+    src: url(Tangerine-Regular.ttf);
+}
+
+/* Tipos de formato
+Opentype (otf)
+enbedded- opentype
+truetype-aat (apple advanced typogtaphy)*/
+*{
+    min-height: 100%;
+}
+body{
+    background-color: antiquewhite;
+
+}
+ 
+h1{
+    font-family: "regular";
+
+}
+
+h2{
+
+}
+p {
+
+}

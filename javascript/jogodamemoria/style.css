@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    height: 150vh;
+    display: flex;
+}
+
+h1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    background-color: bisque;
+    color: blue;
+    border-radius: 15px;
+}
+
+.cartas:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.cartas.flip {
+    transform: rotateY(180deg);
+}
+
+.jogo-memoria {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 10000px;
+
+}
+
+.cartas {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px green;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.front-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: white;
+
+}
+
+.back-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    background: aliceblue;
+    backface-visibility: hidden;
+}
+
+input {
+    background-color: rgb(163, 157, 158);
+    text-align: center;
+    color: brown;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 46px;
+    position: absolute;
+    border-radius: 15px;
+}

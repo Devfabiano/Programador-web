@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+    background-color: antiquewhite;
+    margin-left: 150px;
+    margin-right:150px;
+
+
+}
+h1{
+    background-color: aliceblue;
+    color: blanchedalmond;
+    text-align: center;
+
+}
+h2{
+    background-color: blanchedalmond;
+    color: aliceblue;
+    text-align: right;
+
+}
+
+p{
+    text-align: justify;
+}
+
+h3{
+    background-color: aquamarine;
+    color: aqua;
+    text-align: right;
+}
+

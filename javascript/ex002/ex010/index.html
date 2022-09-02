@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Comando de repetições</h1>
+    <p>while - Esta instrução é usada quando não sabemos quantas vezes quando um determinado bloco de instrução precisa ser repetido. com ele, a execução das instruções vai continuar até que uma condição seja verdadeira
+    Cada interação </p>
+    <h2> O seguite laço while intera enquanto n é menor que 3</h2>
+    <p>var n = 0;</p>
+    <p>var x = 0;</p>
+    <p>while(n < 3 ){</p>
+        <p>n++;</p>
+        <p>x+ = n;</p>
+        <p>}</p>
+        <p>Cada interação incrementa n  e soma a x . Portanto n e x assume os seguintes valores</p>
+
+    <h2>Do/while</h2>
+    <p> o do/while  tem quase o mesmo funcionamento do que while, a diferença é com uso dele teremos os comandos executados  ao menos uma vez.</p>
+
+    <p> o laço do...while soma pelo menos uma vez e executa novamente até o i não ser menor que 5.</p>
+
+    <p> var resultado=";</p>
+    <p>vai = 0;</p>
+    <p>do{<br>
+        i + = 1;<br>
+        resultado + = i + '';<br>
+
+    } while (i<5); <br>
+
+    document.getElementById('exemplo').innerHTML = resultado; </p>
+
+<p> RESULTADO</p>
+<p></p>1 2 3 4 5 </p>  
+<p>Um array é uma variavel especial, que pode conter mais de um valor por vez.</p>
+
+<p>
+se você tem uma lista de itens (uma lista de nomes de carros por exemplo) armazenar uma variavel de nomes de carros.</p>
+
+<p> var carro1 = "Saab";</p>
+<p>var carro2 = "Volvo";</p>
+<p>var carro3 = " BMW";</p>
+
+No entanto, e se você quiser percorrer os carros e encontrar um especifico? e se vc não tivesse 3 corros, mas 300?</p>
+
+<p>A solução é um Array!</p>
+
+<p>Um Array pode armazenar muitos valores com um unico nome, e vc pode consultar os numeros com um unico valor. Consultando um numero de indice.</p>
+
+<h2>Criando um Array</h2>
+<p>Codigo</p>
+
+<p>var array-name = [item1, item2, ...] </p>
+ exemplo:
+ 
+<p> var carros=" [Saab, Volvo, BMW"]<br>
+ Espaços e quebras de linhas não são importantes, Uma declaração pode abranger varias linhas;<br>
+ var carros = [<br>
+ "Saab"<br>
+ "Volvo"<br>
+ "BMW"<br>
+ ]</p>
+
+<p> Usando novos arrays no Javascript</p>
+<p> O exemplo a seguir tambem cria um  array e atribui valores a ela;</p>
+<p> var carro = new Array ("Saab", "Volvo", "BMW")</p>
+<p> Os dois exemplos cima fazem exatamente o mesmo. Não é nescessario usar o novo Array().</p>
+<p> Por simplicidade, legitimidade e velocidade de execução, use o primeiro (metodo literal do Array).</p>
+<h2>Acesse os elementos de um Array</h2> 
+<p> Voce se refere a um elemnto do Array refernte ao número de indice.</p>
+<p> Esta declaração acessa o valor do primeiro elemnto em carros;</p>
+<p> var name = carros[0];</p>
+<p> Esta declaração modifica o primeiro elemento  em carros;</p>
+<p> carros[0]= "Opel";</p>
+ <h6>Exemplo</h6>
+<p>var carros = ["Saab", "volvo", "BMW"];</p> 
+<p> document.getElementById("demo").innerHTML = carros[0];
+ [0] é o primeiro elemento em Array. [1] é o segundo. OS indices de um Array começa  em 0.</p>
+ <h2>Acessando um Array </h2>
+<p> Com Javascript,  é possivel acessar a matriz completa consultando o nome do Array;</p>
+<p> var carros = ["Saab", "Volvo", "BMW"];</p>
+<p> document.getElementById("demo").innerHTML = carros;</p>
+ <p>var carros = ["Saab", " Volvo", "BMW"]; </p>
+ <p>document.getElementById("demo").innerHTML =;</p>
+<h2> Arrays são objetos </h2>
+ <p>Arrays são um tipo especial de objetos. O tipo de operador em 
+ Javascript retorna " objeto" para Arrays. </p>
+ <p>Arrays usam numeros para acessar seus "elementos". </p>
+<p> Neste exemplo, a pessoa[0] retorna Carlos;</p>
+<p> var pessoa = ["carlos", "Silva", 46];</p>
+ <p> Os objetivos usam nomes para acessar seus "membros". Neste exemplo, pessoa.premeiroNome retorna Carlos;</p>
+ <p> var pessoa = {primeiroNome: "Carlos", lastName:"Silva", age 46};</p>
+ <p>Elemento do Array pode ser objetos</p>
+ <p>As váriaveis de JavaScript podem ser objetos. Arrays são tipos especiais de objeto. </p>
+ <p>Por isso, você pode ter variaveis de diferentes tipos no mesmo Array.</p>
+ <p>Você pode ter objetos em um mesmo array. Você pode ter funções em um array.</p>
+ <p>Você pode ter Arrays em um array;</p>
+ <p>my Array[0] = Date.now;</p>
+<p> my Array[1] = myFunction; </p>
+ <p> my Array[2] = my carros;</p>
+
+
+</body>
+</html>
